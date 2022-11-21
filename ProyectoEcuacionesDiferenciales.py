@@ -145,33 +145,4 @@ while True:
                        differential=values['differential'],
                        max_time=values['max_time'])
 
-    if event == 'Caso1':
-        plot_frequency(prey_birthrate=0,
-                       prey_mortality=0,
-                       initial_prey=0,
-                       predator_birthrate=0,
-                       predator_mortality=0,
-                       initial_predator=0,
-                       differential=0.01,
-                       max_time=50)
-
-    if event == 'Caso2':
-        plot_frequency(prey_birthrate=0,
-                       prey_mortality=0,
-                       initial_prey=0,
-                       predator_birthrate=0,
-                       predator_mortality=0,
-                       initial_predator=0,
-                       differential=0.01,
-                       max_time=50)
-
-    if event == 'Caso3':
-        plot_frequency(prey_birthrate=0,
-                       prey_mortality=0,
-                       initial_prey=0,
-                       predator_birthrate=0,
-                       predator_mortality=0,
-                       initial_predator=0,
-                       differential=0.01,
-                       max_time=50)
 window.close()
